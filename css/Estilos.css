@@ -1,0 +1,41 @@
+#carouselExampleIndicators .carousel-item img{
+  height: 300px; /* Fija la altura de las imagenes a 300 px*/
+  object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+}
+
+@media (min-width: 768px)
+{
+  #carouselExampleIndicators
+  {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #carouselExampleIndicators .carousel-item img{
+    height: 500px;
+    object-fit: contain;
+  }
+}
+
+body {
+    background-color: black;
+}
+
+h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+ul .nav-item{
+  transition: transform 1s ease;
+}
+
+ul .nav-item:hover{
+transform: translateY(-5px);
+box-shadow: 1px 1px 1px black;
+}

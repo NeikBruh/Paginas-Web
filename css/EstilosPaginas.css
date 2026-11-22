@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+
+form {
+    color: white;
+}
+
+ul .nav-item{
+  transition: transform 1s ease;
+}
+
+ul .nav-item:hover{
+transform: translateY(-5px);
+box-shadow: 1px 1px 1px black;
+}
